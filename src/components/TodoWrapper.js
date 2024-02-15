@@ -41,7 +41,7 @@ export const TodoWrapper = () => {
   };
 
   return (
-    <div className="TodoWrapper">
+    <div className="T-Wrapper">
       <h1>What's on the schedule today?</h1>
       <TodoForm addTodo={addTodo} />
       {/* display todos */}
